@@ -2,10 +2,13 @@
 using namespace std;
 
 int main() {
+    int k;
     int row =0, col =0;
-    int chart[5][5] = {0};
-    for(int i = 0; i< 5 ; i++){
-        for(int j = 0; j< 5 ; j++){
+
+    cin >> k;
+    int chart[10][10] = {0};
+    for(int i = 0; i< k ; i++){
+        for(int j = 0; j< k ; j++){
             if( i ==0 || j ==0){
                 chart[i][j] = 1;
             }
@@ -14,8 +17,8 @@ int main() {
             }
         }
     }
-    for(int i = 0 ; i< 5 ; i++){
-        for(int j =0; j<5 ; j++){
+    for(int i = 0 ; i< k ; i++){
+        for(int j =0; j<k ; j++){
             cout << chart[i][j] << " ";
         }
         cout << endl;
