@@ -5,7 +5,7 @@ int main() {
     int n, count;
     cin >> n >> count;
 
-    int chart[10][10];
+    int chart[10][10] = {0};
     int cnt =1;
 
     for(int i =0; i < count; i++){
