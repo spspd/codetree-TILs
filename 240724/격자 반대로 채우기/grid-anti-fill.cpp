@@ -9,7 +9,7 @@ int main() {
     int chart[10][10] = {0};
 
     for(int row = n-1; row>= 0 ; row--){
-        if(row % 2 == 0){
+        if((n) % 2 == row % 2 ){
             for(int col = 0; col < n ; col++){
                 chart[col][row] = cnt;
                 cnt += 1;
