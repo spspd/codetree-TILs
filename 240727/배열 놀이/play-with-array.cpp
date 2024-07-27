@@ -27,6 +27,7 @@ int main() {
                 break;
             case 2 :
                 cin >> numb1;
+                idx = 0;
                 for(int i = 0; i < n; i++){
                     if( n_array[i] == numb1){
                         idx = i+1;
