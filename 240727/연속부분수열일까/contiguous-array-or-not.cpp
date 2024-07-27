@@ -29,7 +29,7 @@ int main() {
             }
 
             // 같지 않다면 
-            if(n1_array[i+j] == n2_array[j]){
+            if(n1_array[i+j] != n2_array[j]){
                 
                 break;
             }
