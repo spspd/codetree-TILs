@@ -7,7 +7,7 @@ int main() {
 
     int n1_array[100] = {0};
     int n2_array[100] = {0};
-
+    cin >> n1 >> n2;
     for( int i = 0; i< n1; i++){
         cin >> n1_array[i];
     }
@@ -29,11 +29,13 @@ int main() {
             }
 
             // 같지 않다면 
-            if(n1_array[i+j] != n2_array[j]){
+            if(n1_array[i+j] == n2_array[j]){
+                
                 break;
             }
             else{
                 // clear
+                // cout << j << " ";
                 if(j == n2 -1){
                     correct = 1;
                 }
