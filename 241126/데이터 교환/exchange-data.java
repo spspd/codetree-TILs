@@ -5,7 +5,7 @@ public class Main {
         b = a;
         c = b;
         a = temp;
-        System.out.print(a+"\n"+b+"\n"+c)
+        System.out.print(a+"\n"+b+"\n"+c);
         
     }
 }
